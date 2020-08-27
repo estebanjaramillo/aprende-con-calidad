@@ -1,0 +1,37 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: red;
+}
+.ppi {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tabla {
+  border-collapse: collapse;
+  color: black;
+  border: black 3px solid;
+  margin: 0 auto;
+  padding: 14px 3px black solid ;
+  align-items: center
+
+  
+}
+.tr {
+  border: 3px black solid;
+  border-collapse: collapse;
+  
+
+}
+
+.row {
+ border: black 3px solid;
+ border-collapse: collapse;
+}
+.td {
+  border-collapse: collapse;
+  border: 3px black solid;
+}
+.th {
+  border-collapse: collapse;
+  border: 3px black solid;
+}
