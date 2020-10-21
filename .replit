@@ -1,10 +1,6 @@
 language = "nodejs"
 # run = "cd frontend-mi-proyecto-ppi && npm i"
 # run = "cd frontend-mi-proyecto-ppi && npm start"
-<<<<<<< HEAD
 #run = "cd backend-Nutricionlite && npm i morgan nodemon express mysql"
 run = "cd backend-Nutricionlite && npm run dev"
-=======
-#run = "cd backend-mi-proyecto-ppi && npm i"
-run = "cd backend-mi-proyecto-ppi && npm run dev"
->>>>>>> origin/master
+
