@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
+// IMPORT PARA MOSTRAR LA PAGINA DEFAULT//
+
+import App from "./routes/App";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
