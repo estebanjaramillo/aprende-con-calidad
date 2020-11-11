@@ -4,7 +4,7 @@ const router = Router()
 
 const { connection } = require('../db/mysql')
 
-router.get("/usuarios", (req, res) => {
+router.get("/USUARIOS", (req, res) => {
   connection.query('SELECT * FROM actores', (error, rows, fields) => {
     if (!error) {
       res.json(rows)
@@ -14,19 +14,19 @@ router.get("/usuarios", (req, res) => {
   })
 })
 
-router.post("/usuarios", (req, res) => {
+router.post("/USUARIOS", (req, res) => {
 
 })
 
-router.get("/usuarios/:id", (req, res) => {
+router.get("/USUARIOS/:ID", (req, res) => {
 
 })
 
-router.put("/usuarios/:id", (req, res) => {
+router.put("/USUARIOS/:ID", (req, res) => {
 
 })
 
-router.delete("/usuarios/:id", (req, res) => {
+router.delete("/USUARIOS/:ID", (req, res) => {
 
 })
 
